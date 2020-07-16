@@ -1,0 +1,340 @@
+nav {
+    background-color: clear;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 100vw;
+    z-index: 1;
+  }
+  
+  nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  #brand {
+    float: left;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Acme", sans-serif;
+  }
+  
+  .nav-link:hover {
+    color: white;
+    font-weight: bold;
+  }
+  
+  #brand .nav-link {
+    color: #ffffff
+      ;
+    font-size: 14pt;
+  }
+  
+  #brand .nav-link:hover {
+    color: white;
+  }
+  
+  body{
+    background-color: black;
+    font-family: sans-serif;
+  }
+  
+  #home {
+    margin-top: 10vh; /* or 50px */
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 80vh;
+    padding-top: 3em;
+    background: url("https://images.unsplash.com/photo-1506106496075-402bf5161d2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80") center 70% no-repeat fixed;
+      background-size: cover;
+  }
+  
+  .header-tag {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 4px 2px black;
+  }
+  
+  h3.header-tag {
+    margin-top: -10px;
+    font-size: 14pt;
+  }
+  
+  #btn btn-default btn-lg {
+    text-align: center;
+    
+  }
+  
+  .social a {
+    -webkit-transition: background-color 0.7s ease-out;
+    -moz-transition: background-color 0.7s ease-out;
+    -o-transition: background-color 0.7s ease-out;
+    transition: background-color 0.7s ease-out;
+    padding: 20px 3px 10px 3px;
+    margin-left: 10px;
+    border-radius: 4px;
+  }
+  
+  .social a:hover {
+    background-color: #fff;
+  }
+  
+  .social {
+    margin-left: 43%;
+    padding-bottom: 150px;
+    position: relative;
+  }
+  
+  
+ /*---------------------------------------------------*/
+  
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #cccccc;
+    color: white;
+  }
+
+  p.resume {
+    padding: 10px;
+    text-align: center;
+    background-color: #cccccc;
+    color: white;  
+  }
+
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  
+  /*Portfolio beginning*/
+  * {
+    box-sizing: border-box;
+  }
+  
+  .body {
+    background-color: black;
+    padding: 10px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    background-color: black;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  h2 {
+    color: white;
+    font-size: 30pt
+  }
+  
+  .row {
+    margin: 8px -16px;
+    background-color: black;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .columnn {
+    padding: 4px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .columnn {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columnn {
+      width: 100%;
+    }
+  } /*end of portfolio box*/
+
+
+  /*--------------------------------------------------*/
+  /*code for skills image row*/
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+
+
+.text-center {
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+p.text-centerr {
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+  
+  .icon-row img{
+    width: 60px;
+    height: 55px;
+    padding: 2px;
+  }
+  
+  /* Clear floats after image containers */
+  .icon-row:after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-left: 35%;
+  }
+
+  #skillsRow {
+    text-align: center;
+  }
+
+
+  
+  
+  /*----------------------------------------*/
+  /*beginning of contact box*/
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 10px;
+    
+  }
+
+  .rowe {
+
+    text-align: center;
+    background-color: #cccccc;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .formm{
+    float: left;
+    width: 50%
+    margin-top: 6px;
+    padding: 20px;
+  }
+
+  1float{
+    height: 50px;
+    width: 50px;
+  }
